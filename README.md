@@ -52,8 +52,7 @@
 
 | 平台 | 链接 |
 |------|------|
-| 🌐 Vercel | [tcs-game.vercel.app](https://tcs-game.vercel.app) |
-| 📦 GitHub Pages | [chunxiuxiamo.github.io/tcs-game](https://chunxiuxiamo.github.io/tcs-game/) |
+| 🌐 Vercel | [tcs-game-ebon.vercel.app](https://tcs-game-ebon.vercel.app) |
 
 ## 🛠️ 本地运行
 
@@ -131,4 +130,4 @@ MIT License
 
 ---
 
-**🎮 立即开始游玩：[tcs-game.vercel.app](https://tcs-game.vercel.app)**
+**🎮 立即开始游玩：[tcs-game-ebon.vercel.app](https://tcs-game-ebon.vercel.app)**
