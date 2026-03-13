@@ -3,122 +3,122 @@
     {
       "speed": 180,
       "obstacles": 0,
-      "foodsPerLevel": 4,
-      "description": "暖身巡航，慢速无障碍，先用连续吃食建立手感。"
+      "foodsPerLevel": 3,
+      "description": "开局热身，吃满 3 个食物即可升关，快速进入连续得分节奏。"
     },
     {
       "speed": 175,
       "obstacles": 0,
-      "foodsPerLevel": 4,
-      "description": "稳定滑行，节奏略微加快，训练你对转向时机的把握。"
+      "foodsPerLevel": 3,
+      "description": "新手顺手期，再吃 3 个就能晋级，用短目标建立操作信心。"
     },
     {
       "speed": 170,
       "obstacles": 1,
       "foodsPerLevel": 4,
-      "description": "首个路障登场，开始学习绕行与提前观察。"
+      "description": "首个门槛，目标提升到 4 个食物，开始适应绕障后的连续进食。"
     },
     {
       "speed": 165,
       "obstacles": 1,
-      "foodsPerLevel": 5,
-      "description": "熟练试炼，奖励仍然频繁，但已经要求更干净的路线。"
+      "foodsPerLevel": 4,
+      "description": "稳定提速，吃满 4 个食物继续前进，要求更干净的转向路线。"
     },
     {
       "speed": 160,
       "obstacles": 2,
-      "foodsPerLevel": 5,
-      "description": "信心建立完成，小范围压迫感出现，适合培养连贯操作。"
+      "foodsPerLevel": 4,
+      "description": "新手收官，4 个食物看似不多，但需要在压迫感下保持连贯。"
     },
     {
       "speed": 155,
       "obstacles": 3,
       "foodsPerLevel": 5,
-      "description": "进入提速区，开始思考下一口食物之前的退路。"
+      "description": "进入技能提升期，目标 5 个食物，开始训练更长回合的专注力。"
     },
     {
       "speed": 150,
       "obstacles": 4,
       "foodsPerLevel": 5,
-      "description": "走位练习，障碍分布更明显，路径规划开始变成核心。"
+      "description": "走位练习，吃到 5 个食物才能过关，路径规划开始决定成败。"
     },
     {
       "speed": 145,
       "obstacles": 5,
       "foodsPerLevel": 5,
-      "description": "心流起点，速度与障碍同时施压，要求连续正确决策。"
+      "description": "心流起点，连续拿下 5 个食物，才能扛住速度与障碍的双重施压。"
     },
     {
       "speed": 140,
       "obstacles": 5,
       "foodsPerLevel": 6,
-      "description": "节奏锁定，升关目标提高，迫使你维持更长时间的稳定发挥。"
+      "description": "中期拉长战线，6 个食物的目标要求你稳定发挥更久。"
     },
     {
       "speed": 135,
       "obstacles": 6,
       "foodsPerLevel": 6,
-      "description": "中段压测，局面开始变窄，每一次转向都需要预判两步。"
+      "description": "节奏压测，吃满 6 个食物再升级，每一步都要为下一步留空间。"
     },
     {
       "speed": 130,
       "obstacles": 7,
       "foodsPerLevel": 6,
-      "description": "高手门槛，蛇身与障碍会共同制造夹角，反应不能再犹豫。"
+      "description": "高手门槛，6 个食物配合更窄路线，反应和预判缺一不可。"
     },
     {
       "speed": 125,
       "obstacles": 8,
-      "foodsPerLevel": 6,
-      "description": "急弯挑战，安全区域明显缩小，要学会为未来腾出空间。"
+      "foodsPerLevel": 7,
+      "description": "高强度续航，目标 7 个食物，开始考验长时间不失误的能力。"
     },
     {
       "speed": 120,
       "obstacles": 9,
-      "foodsPerLevel": 6,
-      "description": "压缩棋盘，可用路线减少，控制贪心成为关键技巧。"
+      "foodsPerLevel": 7,
+      "description": "压缩棋盘下的耐力战，吃满 7 个食物，控制贪心比速度更重要。"
     },
     {
       "speed": 115,
       "obstacles": 10,
-      "foodsPerLevel": 6,
-      "description": "高速织网，路线像在缝隙中穿针，操作与判断都要同步。"
+      "foodsPerLevel": 7,
+      "description": "高速织网，7 个食物的长目标要求你在缝隙中持续做对选择。"
     },
     {
       "speed": 110,
       "obstacles": 12,
-      "foodsPerLevel": 6,
-      "description": "强者证明，高密度障碍压迫全场，只有稳定节奏能带你过关。"
+      "foodsPerLevel": 8,
+      "description": "进入高手挑战后段，8 个食物是新的证明，失误成本明显抬高。"
     },
     {
       "speed": 105,
       "obstacles": 13,
-      "foodsPerLevel": 6,
-      "description": "大师预热，速度逼近极限，必须把每一次转向都变成肌肉记忆。"
+      "foodsPerLevel": 8,
+      "description": "大师预热，连续拿下 8 个食物才能晋级，必须把节奏打成肌肉记忆。"
     },
     {
       "speed": 100,
       "obstacles": 14,
-      "foodsPerLevel": 6,
-      "description": "高压追击，局势变化几乎不给思考空档，只能依靠长期积累。"
+      "foodsPerLevel": 8,
+      "description": "高压追击，8 个食物的长线目标逼你在极限速度下保持冷静。"
     },
     {
       "speed": 95,
       "obstacles": 15,
-      "foodsPerLevel": 7,
-      "description": "巅峰走位，目标再次拉长，你需要在高压下维持耐心和精度。"
+      "foodsPerLevel": 9,
+      "description": "巅峰走位，目标升到 9 个食物，高压下的耐心开始决定上限。"
     },
     {
       "speed": 90,
       "obstacles": 16,
-      "foodsPerLevel": 7,
-      "description": "极限博弈，每个空格都珍贵，任何临时起意都会立刻付出代价。"
+      "foodsPerLevel": 9,
+      "description": "极限博弈，吃满 9 个食物才有资格冲顶，每个空格都必须精打细算。"
     },
     {
       "speed": 85,
       "obstacles": 18,
-      "foodsPerLevel": 7,
-      "description": "荣耀终局，顶级速度与密集障碍叠加，通关本身就是战绩。"
+      "foodsPerLevel": 10,
+      "description": "荣耀终局，必须吞下 10 个食物完成封顶通关，这一关本身就是战绩。"
     }
   ]
 }
