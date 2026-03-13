@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>霓虹贪吃蛇</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero-panel">
+        <p class="eyebrow">HTML5 Canvas Game</p>
+        <h1>霓虹贪吃蛇</h1>
+        <p class="hero-copy">
+          吃掉食物、提升分数，并在更快的节奏和更多障碍中继续存活。
+        </p>
+      </section>
+
+      <section class="game-layout">
+        <div class="game-card">
+          <div class="hud">
+            <article class="stat-card">
+              <span class="stat-label">当前分数</span>
+              <strong id="score">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">最高分</span>
+              <strong id="high-score">0</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">当前关卡</span>
+              <strong id="level">1</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">状态</span>
+              <strong id="status-text">等待开始</strong>
+            </article>
+          </div>
+
+          <div class="canvas-wrap">
+            <canvas
+              id="game-canvas"
+              width="600"
+              height="600"
+              aria-label="贪吃蛇游戏画布"
+            ></canvas>
+            <div class="overlay" id="overlay">
+              <h2 id="overlay-title">准备开始</h2>
+              <p id="overlay-message">点击开始按钮进入第 1 关。</p>
+            </div>
+          </div>
+
+          <div class="button-row">
+            <button id="start-button" class="action-button primary" type="button">
+              开始游戏
+            </button>
+            <button id="pause-button" class="action-button" type="button">
+              暂停
+            </button>
+            <button id="restart-button" class="action-button" type="button">
+              重新开始
+            </button>
+          </div>
+        </div>
+
+        <aside class="side-panel">
+          <section class="panel-block">
+            <h2>玩法说明</h2>
+            <ul>
+              <li>使用键盘方向键控制蛇移动，也可点击下方触控方向键。</li>
+              <li>每关都有独立的升关目标，后期需要吃更多食物并承受更高压力。</li>
+              <li>撞墙、撞自己或撞到障碍物都会结束游戏。</li>
+              <li>最高分会自动保存在本地浏览器中。</li>
+            </ul>
+          </section>
+
+          <section class="panel-block">
+            <h2>触控方向键</h2>
+            <div class="touch-controls" aria-label="触控方向控制">
+              <button class="touch-button up" type="button" data-direction="up">
+                ↑
+              </button>
+              <button class="touch-button left" type="button" data-direction="left">
+                ←
+              </button>
+              <button class="touch-button down" type="button" data-direction="down">
+                ↓
+              </button>
+              <button class="touch-button right" type="button" data-direction="right">
+                →
+              </button>
+            </div>
+          </section>
+
+          <section class="panel-block">
+            <h2>关卡节奏</h2>
+            <p id="level-description">
+              第 1 关：暖身巡航，慢速无障碍，先用连续吃食建立手感。本关目标：4 个食物。
+            </p>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
